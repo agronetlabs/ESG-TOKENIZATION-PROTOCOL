@@ -97,7 +97,7 @@ As of **November 22, 2025**, SWIFT completed its historic transition to the **IS
 ## 📄 Legal & Licensing Notice
 
 © 2023–2025 AgroNet Labs LLC — All Rights Reserved.  
-ERC-8040 (ATF-AI: Autonomus Trust Framework) is a public technical standard registered within the Ethereum ecosystem for reference.
+ERC-8040 (ATF-AI: Autonomous Trust Framework) is a public technical standard registered within the Ethereum ecosystem for reference.
 
 While the EIP document is public, the institutional implementation, certification, audit layer, and brand identity **"ATF-AI Verified"** are proprietary intellectual property of AgroNet Labs LLC.
 
@@ -138,7 +138,7 @@ To contribute:
 
 📄 Usage & Licensing  
 © 2023–2025 AgroNet Labs LLC — All Rights Reserved.  
-EIP-8040 (ATF-AI: Autonomus Trust Framework) is an open technical standard registered within the Ethereum ecosystem for public reference.  
+EIP-8040 (ATF-AI: Autonomous Trust Framework) is an open technical standard registered within the Ethereum ecosystem for public reference.  
 While the EIP document is public, the institutional implementation, certification layer, audit infrastructure, and brand identity "ATF-AI Verified" are proprietary intellectual property of AgroNet Labs LLC.  
 ✅ Free Usage  
 Use of the EIP-8040 specification for educational or experimental purposes is permitted without restriction.  
