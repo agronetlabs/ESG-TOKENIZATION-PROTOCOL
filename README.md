@@ -1,6 +1,7 @@
 [![ATF-AI Verified](https://img.shields.io/badge/ATF--AI-VERIFIED-2ea44f?style=for-the-badge&logo=vercel)](https://github.com/agronetlabs/AgroPay/blob/main/docs/agropay-core-attestation.md)
 [![Provenance Traceable](https://img.shields.io/badge/PROVENANCE-SIGNED-0f9d58?style=for-the-badge&logo=oci)](https://github.com/agronetlabs/AgroPay/blob/main/docs/agropay-core-attestation.md)
 [![Pull Shark](https://img.shields.io/badge/PULL--SHARK-ACTIVE-0066ff?style=for-the-badge&logo=github)](https://github.com/agronetlabs/AgroPay)
+[![ISO 20022 Compatible](https://img.shields.io/badge/ISO%2020022-Compatible-00a651?style=for-the-badge&logo=swift&logoColor=white)](https://www.iso20022.org/)
 
 [![Crates.io](https://img.shields.io/crates/v/agrocrypto-core.svg)](https://crates.io/crates/agrocrypto-core)
 [![License: MIT OR Apache-2.0](https://img.shields.io/crates/l/agrocrypto-core)](https://opensource.org/licenses)
@@ -53,7 +54,7 @@ This is not a legacy enterprise stack — it's a modern, auditable, and standard
 - 🧱 [Crates.io](https://crates.io/crates/esg-tokenization-protocol)  
 - 📚 [Docs.rs](https://docs.rs/esg-tokenization-protocol)  
 - 🛡️ [Security Audit](./security_audit.md)  
-- 🧠 [ERC Discussion — Ethereum Magicians](discussions-to: https://ethereum-magicians.org/t/erc-8040-esg-tokenization-protocol/25846)
+- 🧠 [ERC Discussion — Ethereum Magicians](https://ethereum-magicians.org/t/erc-8040-esg-tokenization-protocol/25846)
 
 ---
 
@@ -68,10 +69,35 @@ This is not a legacy enterprise stack — it's a modern, auditable, and standard
 
 ---
 
+## 🌐 ISO 20022 & SWIFT Alignment
+
+As of **November 22, 2025**, SWIFT completed its historic transition to the **ISO 20022** standard, integrating blockchain-based ledger technology into the global financial infrastructure. This transformation enables tokenized asset movement across **11,000+ financial institutions worldwide**.
+
+**ESG Tokenization Protocol (ERC-8040)** is designed to seamlessly integrate with this new financial landscape:
+
+- ✅ **Structured Data Compatibility** — Machine-readable metadata aligned with ISO 20022 rich data requirements
+- ✅ **Institutional Interoperability** — Ready for integration with SWIFT's tokenized asset infrastructure
+- ✅ **Compliance-Native Architecture** — Built-in regulatory compliance for cross-border ESG asset transfers
+- ✅ **Quantum-Ready Security** — Future-proof cryptographic infrastructure for the evolving financial ecosystem
+
+> This positions ERC-8040 as a bridge between decentralized ESG tokenization and the newly established global tokenized financial infrastructure.
+
+---
+
+## 🔗 Ecosystem & Related Projects
+
+| Project | Description | Link |
+|---------|-------------|------|
+| **ATF-AI** | Open Compliance Protocol for Financial Asset Digitalization (ERC-8040 aligned) | [github.com/agronetlabs/ATF-AI](https://github.com/agronetlabs/ATF-AI) |
+| **ERC-8040 Discussion** | Ethereum Magicians Forum | [ethereum-magicians.org](https://ethereum-magicians.org/t/erc-8040-esg-tokenization-protocol/25846) |
+| **Crates.io Package** | Rust implementation | [crates.io/crates/esg-tokenization-protocol](https://crates.io/crates/esg-tokenization-protocol) |
+
+---
+
 ## 📄 Legal & Licensing Notice
 
 © 2023–2025 AgroNet Labs LLC — All Rights Reserved.  
-ERC-8040 (ATF-AI: Autonomus Trust Framework) is a public technical standard registered within the Ethereum ecosystem for reference.
+ERC-8040 (ATF-AI: Autonomous Trust Framework) is a public technical standard registered within the Ethereum ecosystem for reference.
 
 While the EIP document is public, the institutional implementation, certification, audit layer, and brand identity **"ATF-AI Verified"** are proprietary intellectual property of AgroNet Labs LLC.
 
@@ -112,7 +138,7 @@ To contribute:
 
 📄 Usage & Licensing  
 © 2023–2025 AgroNet Labs LLC — All Rights Reserved.  
-EIP-8040 (ATF-AI: Autonomus Trust Framework) is an open technical standard registered within the Ethereum ecosystem for public reference.  
+EIP-8040 (ATF-AI: Autonomous Trust Framework) is an open technical standard registered within the Ethereum ecosystem for public reference.  
 While the EIP document is public, the institutional implementation, certification layer, audit infrastructure, and brand identity "ATF-AI Verified" are proprietary intellectual property of AgroNet Labs LLC.  
 ✅ Free Usage  
 Use of the EIP-8040 specification for educational or experimental purposes is permitted without restriction.  
