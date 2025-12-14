@@ -4,13 +4,11 @@
 [![ISO 20022 Compatible](https://img.shields.io/badge/ISO%2020022-Compatible-00a651?style=for-the-badge&logo=swift&logoColor=white)](https://www.iso20022.org/)
 
 [![Crates.io](https://img.shields.io/crates/v/agrocrypto-core.svg)](https://crates.io/crates/agrocrypto-core)
-[![License: MIT OR Apache-2.0](https://img.shields.io/crates/l/agrocrypto-core)](https://opensource.org/licenses)
+[![License: MIT OR Apache-2.0](https://img.shields.io/crates/l/esg-tokenization-protocol)](https://opensource.org/licenses)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![Status](https://img.shields.io/badge/project-Verified%20Blockchain%20Infra-orange)
-![Deployed](https://img.shields.io/badge/deployed-AWS-blue)
 ![Deployed](https://img.shields.io/badge/deployed-Cloudflare-orange)
 ![Deployed](https://img.shields.io/badge/deployed-OpenAI-black)
-
 ---
 
 # 🌐 ESG - Tokenization Protocol
