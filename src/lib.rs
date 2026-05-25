@@ -2,7 +2,7 @@ use serde::{Serialize, Deserialize};
 use sha3::{Digest, Sha3_512};
 use uuid::Uuid;
 
-/// Estrutura de metadados ESG conforme o EIP AgroCrypto Quantum Governance
+/// Estrutura de metadados ESG conforme o ERC-8040.
 #[derive(Debug, Serialize, Deserialize, Clone)]
 pub struct ESGMetadata {
     pub standard: String,
@@ -17,7 +17,7 @@ pub struct ESGMetadata {
     pub evidence: String,
 }
 
-/// Estrutura de atestação (assinada pelo ATF-AI)
+/// Estrutura de atestação do Autonomous Trust Framework for Artificial Intelligence (ATF-AI).
 #[derive(Debug, Serialize, Deserialize, Clone)]
 pub struct Attestation {
     pub atf_digest: String,
@@ -49,7 +49,7 @@ pub fn create_metadata(category: &str, geo: &str, carbon_value: f64, cycle: &str
     };
 
     ESGMetadata {
-        standard: "ERC-ESG/1.0".to_string(),
+        standard: "ERC-8040/1.0".to_string(),
         category: category.to_string(),
         geo: geo.to_string(),
         carbon_value,
@@ -69,7 +69,7 @@ mod tests {
     #[test]
     fn test_metadata_generation() {
         let meta = create_metadata("carbon", "BR-RS", 12.5, "2025-Q3");
-        assert_eq!(meta.standard, "ERC-ESG/1.0");
+        assert_eq!(meta.standard, "ERC-8040/1.0");
         assert_eq!(meta.category, "carbon");
         assert_eq!(meta.geo, "BR-RS");
         assert_eq!(meta.status, "issued");
